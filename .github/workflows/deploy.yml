@@ -34,3 +34,4 @@ jobs:
       run: docker tag weather-fetch:latest 622483791730.dkr.ecr.us-east-1.amazonaws.com/weather-fetch:latest
 
     - name: Push Docker image to ECR
+      run: docker push 622483791730.dkr.ecr.us-east-1.amazonaws.com/weather-fetch:latest
